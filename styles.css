@@ -1,0 +1,67 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background: url('./images/KSAcoffee.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #4e342e;
+    text-align: right;
+    position: relative;
+}
+
+.menu {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    color: #8a2c0b;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #b5651d;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.menu-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.price {
+    color: #b5651d;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #8a2c0b;
+}
+a:hover{
+    color: #b5651d;
+}
+.established{
+    text-align: center;
+}
+section ,img{
+    text-align: center;
+}
